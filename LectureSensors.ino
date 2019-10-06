@@ -44,10 +44,10 @@ float LPGcurve[3]    = {2.30, -0.15, -0.37};
 float COcurve[3]     = {1.70, 0.24, -0.677};
 float NH4curve[3]    = {1.00, 0.46, -0.235};
 
-float ROsmoke = 10;
-float ROlpg   = 10;
-float ROco    = 10;
-float ROnh4   = 10;
+float ROsmoke = 12.91;
+float ROlpg   = 10.36;
+float ROco    = 0.63;
+float ROnh4   = 19.37;
 // NOTE: first we need to find R0 value to calibrate the sensors because this values needs to be constant
 
 void setup() {
